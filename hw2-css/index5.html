@@ -1,0 +1,41 @@
+<!-- Create a simple HTML document with several elements, including <div>, <p>, and 
+<span>. Use class selectors to apply different background colors and font sizes to 
+elements with specific classes.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .class-1 {
+
+            background-color: aqua;
+            color: cadetblue;
+        }
+        .class-2 {
+            background-color: blue;
+            color: chartreuse;
+            text-decoration: overline;
+        }
+        .class-3{
+             background-color: red;
+            color: crimson;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="class-1">Div 1</div>
+        <div class="class-1"> Div 2</div>
+            <div class="class-1">Div 3 <p class="class-2">para inside div</p></div>
+
+
+
+    <p class="class-2">Para: Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nisi repellat dolores reiciendis accusamus saepe culpa hic, quisquam suscipit voluptates!</p>
+
+    <span class="class-3">span: Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, earum!</span>
+</body>
+</html>

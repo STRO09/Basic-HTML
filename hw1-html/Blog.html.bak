@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+     <center><h1> <a href="home.html">Home</a> 
+<a href="destination.html">Destinations</a><a href="Blog.html">Travel Blogs</a><a href="Tips.html">Travel Tips</a><a href="Contact.html">Contact Us</a><a href="Registration.html">Register</a>
+	</h1></center>
+	<hr>
+	<center><h1>Travel Blog</h1></center>
+
+  <center><h2>My Journey to Japan</h2>
+  <p>On my trip to Japan, I discovered beautiful temples, serene gardens, and met incredible people. The food was unforgettable, and exploring Tokyo was like stepping into the future.</p>
+
+  <blockquote>"Travel expands the mind."</blockquote></center>
+
+  <iframe width="100%" height="auto" src="https://www.youtube.com/embed/VIDEO_ID" title="Travel Vlog" frameborder="0" allowfullscreen></iframe>
+
+
+	<hr>
+	<div id="" class="">
+		<center>&copy; All Copyrights Reserved to Stro Travel Agency</center>
+	</div>
+ </body>
+</html>

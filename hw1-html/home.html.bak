@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1> <a href="home.html">Home</a> 
+<a href="destination.html">Destinations</a><a href="Blog.html">Travel Blogs</a><a href="Tips.html">Travel Tips</a><a href="Contact.html">Contact Us</a><a href="Registration.html">Register</a>
+	</h1></center>
+	
+	<hr>
+	<div id="" class="">
+			<center><img src="lake-como-MOSTBEAUTIFUL0921-cb08f3beff1041e4beefc67b5e956b23.jpg" width="900" height="300" border="0" alt="A beautiful travel destination"></center>
+			<center><h2>Explore the World.</h2></center>
+	</div>
+	
+
+	<div id="" class="">
+		<center><p>Welcome to the Ultimate Traveling </p></center><center>
+		<center><h3>Stro Travel Agency</h3></center>
+		<p>Discover authentic travel stories and unique experiences from around the world. From hidden gems to must-visit destinations, explore journeys that inspire your next adventure.</p></center>
+	</div>
+
+	<div id="" class="">
+	<h4> Popular Destinations- </h4>
+		<ul>
+			<li>Bali</li>
+			<li>New Zealand</li>
+			<li>Paris</li>
+		</ul>
+	</div>
+	<hr>
+	<div id="" class="">
+		<center>&copy; All Copyrights Reserved to Stro Travel Agency</center>
+	</div>
+</body>
+</html>
