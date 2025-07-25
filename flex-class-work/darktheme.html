@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #light {
+        display: block;
+      }
+
+      #text {
+        padding: 60px;
+        background-color: black;
+        color: azure;
+      }
+
+      #video {
+        position: relative;
+        z-index: -1;
+      }
+
+      #text {
+        position: absolute;
+        top: 0;
+      }
+      #dark {
+        display: none;
+      }
+
+      @media (prefers-color-scheme: light) {
+        #light {
+          display: none;
+        }
+
+        #text {
+          padding: 60px;
+          background-color: azure;
+          color: black;
+        }
+
+        #video {
+          position: relative;
+          z-index: -1;
+        }
+
+        #text {
+          position: absolute;
+          top: 0;
+        }
+
+        #dark {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="light">
+      <video
+        src="13691-251858985_small.mp4"
+        id="video"
+        autoplay
+        loop
+        muted
+      ></video>
+      <p id="text">Its light mode</p>
+    </div>
+
+    <div id="dark">
+      <video
+        src="Pocket_Watch_a11___25s___4k_res.mp4"
+        id="video"
+        autoplay
+        loop
+        muted
+      ></video>
+      <p id="text">Its dark mode</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+      nav {
+        width: 100%;
+        background-color: black;
+        padding: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      a {
+        color: azure;
+        text-decoration: none;
+        font-size: larger;
+      }
+
+      main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap     ;
+      }
+
+      .product-card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 20px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        border: 5px black double;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          margin-top: 0px;
+          margin-left: 0px;
+        }
+        nav {
+          width: 100%;
+          background-color: black;
+          padding: 5px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        a {
+          color: azure;
+          text-decoration: none;
+          padding: 20px;
+          font-size: larger;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="">Home</a>
+      <a href="">About us</a>
+      <a href="">Contact</a>
+      <a href="">Register</a>
+    </nav>
+
+    <main>
+      <div class="product-card">
+        <div class="product-img"><img src="images.jpeg" alt="" /></div>
+        <div class="product-name">Product 1</div>
+        <div class="product-details">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+          accusamus aliquam blanditiis temporibus alias. Distinctio minima
+          accusantium voluptatum autem quis.
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img"><img src="images.jpeg" alt="" /></div>
+        <div class="product-name">Product 2</div>
+        <div class="product-details">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+          accusamus aliquam blanditiis temporibus alias. Distinctio minima
+          accusantium voluptatum autem quis.
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img"><img src="images.jpeg" alt="" /></div>
+        <div class="product-name">Product 3</div>
+        <div class="product-details">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+          accusamus aliquam blanditiis temporibus alias. Distinctio minima
+          accusantium voluptatum autem quis.
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

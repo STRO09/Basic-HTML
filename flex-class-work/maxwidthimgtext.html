@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("images.jpeg");
+        }
+
+        #t1{
+            display: block;
+            padding: 50px;
+            background-color: blue;
+        }
+        #t2{
+            display: none;
+            padding: 50px;
+        }
+
+        @media(min-width:700px){
+           body{
+            background-image: url("main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg");
+        }
+        #t2{
+            display: block;
+            padding: 50px;
+            background-color: brown;
+        } 
+        
+        #t1{
+            display: none;
+            padding: 50px;
+            
+        }
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <p id="t1">HEllo Motto</p>
+    <p id="t2">HEllo Lava</p>
+</body>
+</html>

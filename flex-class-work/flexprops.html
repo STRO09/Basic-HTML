@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container1 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .container2 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+      }
+      .container3 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .container4 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-direction: row-reverse;
+      }
+
+      .container5 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        justify-content: flex-start;
+      }
+      .container6 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .container7 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .container8{
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .container9 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .container10 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+       justify-content: space-between;
+      }
+      .container11 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        align-items: flex-start;
+      }
+      .container12 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        align-items: flex-end;
+      }
+      .container13 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        align-items: center;
+      }
+      .container14 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        align-items: stretch;
+      }
+      .container15 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .container16 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+       flex-wrap: nowrap;
+      }
+      .container17 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+       flex-wrap: wrap-reverse;
+      }
+      .container18 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+
+      }
+      .container19 {
+        background-color: chocolate;
+        width: 100%;
+        height: 270px;
+        display: flex;
+
+      }
+
+      .box {
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+      }
+
+       .box-grow {
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+      }
+      .box-stretch {
+        width: 70px;
+        padding: 10px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Flex Direction Row</h2>
+    <div class="container1">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+    <h2>Flex Direction Column</h2>
+    <div class="container2">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+    <h2>Flex Direction Column-reverse</h2>
+    <div class="container3">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+    <h2>Flex Direction Row-reverse</h2>
+    <div class="container4">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+    <h2>Justify Content start</h2>
+    <div class="container5">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+    
+    <h2>Justify Content end</h2>
+    <div class="container6">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+    <h2>Justify Content middle</h2>
+    <div class="container7">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+    <h2>Justify Content space-around
+    </h2>
+    <div class="container8">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+    <h2>Justify Content space-evenly</h2>
+    <div class="container9">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+    <h2>Justify Content space between</h2>
+    <div class="container10">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+        <h2>Items align start</h2>
+    <div class="container11">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+        <h2>items align end </h2>
+    <div class="container12">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+        <h2>Items align center</h2>
+    <div class="container13">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+        <h2>Items align stretch</h2>
+    <div class="container14">
+      <div class="box-stretch"><img src="images.jpeg" alt="" /></div>
+      <div class="box-stretch">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box-stretch">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+
+    <h2>Flex wrap</h2>
+    <div class="container15">
+      <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+    <h2>Flex nowrap</h2>
+    <div class="container16">
+     <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+    <h2>Flex wrap reverse</h2>
+    <div class="container17">
+     <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+       <div class="box"><img src="images.jpeg" alt="" /></div>
+      <div class="box">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+    <h2>Box grow</h2>
+     <div class="container18">
+      <div class="box-grow" style="flex-grow: 2;"><img src="images.jpeg" alt="" /></div>
+      <div class="box-grow" style="flex-grow: 1;">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box-grow">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+     <h2>Box order</h2>
+     <div class="container19">
+      <div class="box" style="order: 3;"><img src="images.jpeg" alt="" /></div>
+      <div class="box" style="order: 1;">
+        <img src="main-qimg-606c1ceded070fb1eb0ee35de4e662e4-lq.jpeg" alt="" />
+      </div>
+      <div class="box" style="order: 2;">
+        <img src="naruto-character-review-sai.jpg" alt="" />
+      </div>
+    </div>
+
+  </body>
+</html>
