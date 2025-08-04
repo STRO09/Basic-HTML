@@ -1,0 +1,135 @@
+body {
+  background: linear-gradient(
+    135deg,
+    rgb(141, 19, 104),
+    rgb(141, 19, 133),
+    rgb(106, 19, 141),
+    rgb(56, 19, 141),
+    rgb(19, 29, 141),
+    rgb(19, 92, 141),
+    rgb(19, 125, 141),
+    rgb(19, 141, 117)
+  );
+  background-size: 400% 750%;
+  animation: tablegradient 7s ease infinite;
+}
+
+.container {
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 50px;
+  font-size: large;
+  border-radius: 40px;
+  box-shadow: 0px 0px 20px 3px rgb(33, 29, 29);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead:hover {
+  background-color: rgba(255, 255, 255, 0.678);
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.422);
+  /* rgb(137, 127, 195) */
+  padding: 10px;
+}
+th:hover {
+  font-size: x-large;
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 4px;
+}
+
+td:hover {
+  font-size: x-large;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+tr:nth-child(even):hover {
+  background-color: rgba(245, 245, 245, 0.747);
+}
+
+tr:nth-child(odd):hover {
+  background-color: rgba(255, 255, 255, 0.3); /* soft glow */
+}
+
+td::before {
+  content: "📍";
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) td:hover {
+  background-color: rgba(245, 245, 245, 0.365);
+  border-radius: 4px;
+}
+
+@keyframes tablegradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+form {
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  max-width: 700px;
+  margin: 50px auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 60px;
+  color: white;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a4ed4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #393db8;
+}
