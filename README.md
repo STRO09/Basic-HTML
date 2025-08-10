@@ -23,9 +23,3 @@ A personal collection of frontend practice projects and code snippets covering t
   - Responsive utility classes
 
 
-## 📌 Future Plans
-
-- Add mini responsive projects (landing page, dashboard UI, etc.)
-- Include JavaScript DOM manipulation basics
-- Convert some plain CSS files to SCSS for better organization
-
