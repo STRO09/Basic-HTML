@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .headline {
+        width: 100%;
+        background-color: rgba(255, 0, 0, 0.226);
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .headline span {
+        display: inline-block;
+        animation: scrollText 20s linear infinite;
+      }
+
+      .rotating-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        animation: backflipspin 2s linear infinite;
+      }
+
+      .flip-container {
+        perspective: 1000px;
+        width: 300px; /* Adjust as needed */
+        height: 500px;
+      }
+
+      .flipper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.8s cubic-bezier(0.4, 2, 0.6, 1);
+        transform-style: preserve-3d;
+      }
+
+      .flip-container:hover .flipper {
+        transform: rotateY(180deg);
+      }
+
+      .front,
+      .back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        object-fit: cover;
+      }
+
+      .back {
+        transform: rotateY(180deg);
+      }
+
+      @keyframes scrollText {
+        0%,
+        100% {
+          transform: translateX(0);
+        }
+
+        50% {
+          transform: translateX(-100%);
+        }
+      }
+
+      @keyframes backflipspin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="headline">
+      <span
+        >Admin page should only be used in the period of admission or staff
+        changes. Major changes may pose a risk to the system. Make changes
+        securely. Unauthorized access will be monitored and reported
+        immediately. Please ensure you log out after completing your tasks. This
+        system is for official use only and all activities are logged for
+        security purposes.</span
+      >
+    </div>
+
+    <div class="rotating-img">
+      <img src="Screenshot 2025-08-14 182254.png" alt="" />
+    </div>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <img
+          class="front"
+          src="front_view.png
+        "
+          alt="Front"
+        />
+        <img class="back" src="back_view.png" alt="Back" />
+      </div>
+    </div>
+  </body>
+</html>
